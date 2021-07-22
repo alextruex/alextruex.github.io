@@ -1,54 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import 'variables.scss';
+
 body{
-    background-color:#333333 !important;
-}
-
-.alextruex__header{
-    margin-top:40px;
-    text-align:center;
-
-    h1{
-        letter-spacing:4px;
-        text-transform: uppercase;
-        border:2px solid white;
-        color:white;
-        padding:10px;
-        font-size:48px;
-    }
-
-    h2{
-        color:white;
-    }
-}
-
-.alextruex__main{
-    color:white;
-    text-align:center;
-    padding-top:128px;
-}
-
-.alextruex__button{
-    background-color:white;
-    color:#333333;
-    display:block;
-    width:300px;
-    padding:20px;
-    margin:auto;
-    margin-top:40px;
-    border-radius:4px;
-    text-transform: uppercase;
-    letter-spacing:2px;
-    font-size:32px;
-    transition:0.3s;
-    border:4px solid white;
-}
-
-.alextruex__button:hover{
-    background-color:#333333;
-    color:white;
-    border:4px solid white;
-    text-decoration: none;
-    transition:0.3s;
-
+    background-color:$background !important;
 }

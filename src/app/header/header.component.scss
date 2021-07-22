@@ -1,0 +1,30 @@
+@import 'variables.scss';
+
+.alextruex__header{
+    text-align:center;
+    margin-top:40px;
+    color:$primary;
+    font-family:$serif;
+
+    .container{
+        background-image:url('/assets/banner-art.png');
+        background-position:center;
+    }
+
+    h1{
+        font-size:64px;
+        letter-spacing:-1px;
+    }
+
+    h2{
+        margin-top:400px;
+        font-size:48px;
+        letter-spacing:-1px;
+    }
+
+    h2 strong{
+        font-weight:500;
+    }
+
+
+}
