@@ -2,12 +2,15 @@
 
 .alextruex__header{
     text-align:center;
-    margin-top:40px;
+    padding-top:40px;
     color:$primary;
     font-family:$serif;
+    height:600px;
+    background-image:url('/assets/banner-art.png');
+    background-position:bottom;
 
     .container{
-        background-image:url('/assets/banner-art.png');
+        
         background-position:center;
     }
 

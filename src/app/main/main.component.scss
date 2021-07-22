@@ -25,7 +25,31 @@
     }
 
     .alextruex__main-links{
-        
+        margin-top:40px;
+    }
+
+    .alextruex__main-link{
+        font-family:$sans;
+        text-align:center;
+    }
+
+    .alextruex__main-link a{
+        font-family:$sans;
+        text-align:center;
+        display:block;
+        text-align:center;
+    }
+
+    .alextruex__main-link img{
+        width:96px;
+        height:96px;
+    }
+
+    .alextruex__main-link label{
+        text-align:center;
+        font-size:32px;
+        font-family:$sans;
+        display:block;
     }
 
     .alextruex__main-bio{
@@ -36,5 +60,11 @@
 
     .alextruex__main-bio p{
         text-indent:30px;
+    }
+
+    .alextruex__main-article{
+        margin:80px 0px;
+        font-size:20px;
+        text-indent: 32px;
     }
 }
